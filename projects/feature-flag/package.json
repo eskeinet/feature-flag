@@ -1,0 +1,13 @@
+{
+  "name": "@domoestudio/feature-flag",
+  "version": "0.0.1",
+  "repository": "https://github.com/DomoeStudio/logger.git",
+  "peerDependencies": {
+    "@angular/common": "^16.0.0",
+    "@angular/core": "^16.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}
