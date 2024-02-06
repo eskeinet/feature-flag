@@ -1,6 +1,6 @@
 {
   "name": "@domoestudio/feature-flag",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": "https://github.com/DomoeStudio/feature-flag.git",
   "peerDependencies": {
     "@angular/common": "^16.0.0",
