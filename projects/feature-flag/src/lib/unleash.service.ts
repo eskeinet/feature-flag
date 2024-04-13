@@ -1,7 +1,8 @@
 import { Injectable, Inject } from '@angular/core';
 import { FeatureFlagService } from './feature-flag.service';
 import { UnleashClient } from 'unleash-proxy-client';
-import { Observable, from, fromEvent, map, mergeMap } from 'rxjs';
+import { Observable, from, fromEvent } from 'rxjs';
+import { map, mergeMap } from 'rxjs/operators';
 import { unleashConfigInjectionToken } from './unleash.token';
 import { UnleashConfiguration } from './unleash-configuration';
 

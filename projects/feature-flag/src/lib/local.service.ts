@@ -1,7 +1,8 @@
 import { Inject, Injectable } from '@angular/core';
 import { FeatureFlagService } from './feature-flag.service';
 import { HttpClient } from '@angular/common/http';
-import { Observable, map, tap } from 'rxjs';
+import { Observable } from 'rxjs';
+import { map } from 'rxjs/operators';
 import { FeatureFlag } from './feature-flag';
 import { localFileInjectionToken } from './local-file.token';
 
